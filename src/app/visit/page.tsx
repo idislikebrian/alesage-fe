@@ -11,7 +11,7 @@ const visitFacts = [
     label: "Address",
     value: (
       <>
-        [ Street address ]
+        55 Myrtle St
         <br />
         Manhasset, NY 11030
       </>

@@ -29,7 +29,7 @@ export function SiteFooter() {
           </div>
           <div className={styles.footerColumn}>
             <h2>Atelier</h2>
-            <p>[ Street address ]</p>
+            <p>55 Myrtle St</p>
             <p>Manhasset, NY 11030</p>
             <a href="mailto:hello@alesageny.com">hello@alesageny.com</a>
             <p className={styles.footerHours}>Tue–Sat · 9–6</p>
