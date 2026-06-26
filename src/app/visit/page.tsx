@@ -21,7 +21,7 @@ const visitFacts = [
     label: "Hours",
     value: (
       <>
-        Tue–Sat · 9–6
+        Mon–Fri · 8–6
         <br />
         Consultations by appointment
       </>

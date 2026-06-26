@@ -32,7 +32,7 @@ export function SiteFooter() {
             <p>55 Myrtle St</p>
             <p>Manhasset, NY 11030</p>
             <a href="mailto:hello@alesageny.com">hello@alesageny.com</a>
-            <p className={styles.footerHours}>Tue–Sat · 9–6</p>
+            <p className={styles.footerHours}>Mon–Fri · 8–6</p>
           </div>
         </div>
         <div className={styles.footerBase}>
