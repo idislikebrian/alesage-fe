@@ -1,9 +1,9 @@
 import { CtaLink } from "@/components/CtaLink";
+import { HomeVideo } from "@/components/HomeVideo";
 import { Kicker } from "@/components/Kicker";
 import { LedgerList } from "@/components/LedgerList";
 import { Section } from "@/components/Section";
 import { ServiceCard } from "@/components/ServiceCard";
-import { SpecimenPlate } from "@/components/SpecimenPlate";
 import styles from "@/components/site.module.css";
 
 const exhibitions = [
@@ -65,6 +65,7 @@ export default function Home() {
   return (
     <>
       <header className={styles.hero}>
+        <HomeVideo />
         <div className={styles.heroGrid}>
           <div className={styles.heroTop}>
             <span className={styles.label}>Specimen No. AL-911-32</span>
@@ -92,7 +93,6 @@ export default function Home() {
               </CtaLink>
             </div>
           </div>
-          <SpecimenPlate />
         </div>
       </header>
 
